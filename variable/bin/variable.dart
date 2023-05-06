@@ -1,5 +1,5 @@
-import 'package:variable/variable.dart' as variable;
-
-void main(List<String> arguments) {
-  print('Hello world: ${variable.calculate()}!');
+void main() {
+  int panjang = 10;
+  int lebar = 10;
+  print(panjang * lebar);
 }

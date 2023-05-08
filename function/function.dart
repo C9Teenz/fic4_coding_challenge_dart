@@ -4,7 +4,7 @@ void main() {
   stdout.write("Masukkan Kata: ");
   String? kata = stdin.readLineSync();
   upercase(String word) {
-    return word[0].toUpperCase();
+    return word.toUpperCase();
   }
 
   print(upercase(kata!));
